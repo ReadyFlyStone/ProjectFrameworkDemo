@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/common_project/!svn/ver/677/ios/ProjectFrameworkDemo/ProjectFrameworkDemo/Classes/Other/Categories/NSString
+END
+NSString+HDExtension.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/common_project/!svn/ver/677/ios/ProjectFrameworkDemo/ProjectFrameworkDemo/Classes/Other/Categories/NSString/NSString+HDExtension.h
+END
+NSString+RegexCategory.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/common_project/!svn/ver/677/ios/ProjectFrameworkDemo/ProjectFrameworkDemo/Classes/Other/Categories/NSString/NSString+RegexCategory.h
+END
+NSString+Size.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/common_project/!svn/ver/677/ios/ProjectFrameworkDemo/ProjectFrameworkDemo/Classes/Other/Categories/NSString/NSString+Size.h
+END
+NSString+HDExtension.m
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/common_project/!svn/ver/677/ios/ProjectFrameworkDemo/ProjectFrameworkDemo/Classes/Other/Categories/NSString/NSString+HDExtension.m
+END
+NSString+RegexCategory.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/common_project/!svn/ver/677/ios/ProjectFrameworkDemo/ProjectFrameworkDemo/Classes/Other/Categories/NSString/NSString+RegexCategory.m
+END
+NSString+BFKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/common_project/!svn/ver/677/ios/ProjectFrameworkDemo/ProjectFrameworkDemo/Classes/Other/Categories/NSString/NSString+BFKit.h
+END
+NSString+Size.m
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/common_project/!svn/ver/677/ios/ProjectFrameworkDemo/ProjectFrameworkDemo/Classes/Other/Categories/NSString/NSString+Size.m
+END
+NSString+BFKit.m
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/common_project/!svn/ver/677/ios/ProjectFrameworkDemo/ProjectFrameworkDemo/Classes/Other/Categories/NSString/NSString+BFKit.m
+END
