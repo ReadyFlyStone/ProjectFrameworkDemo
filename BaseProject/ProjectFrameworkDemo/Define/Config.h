@@ -1,0 +1,57 @@
+//
+//  Config.h
+//  ProjectFrameworkDemo
+//
+//  Created by 周磊 on 16/6/8.
+//  Copyright © 2016年 xiaopao. All rights reserved.
+//
+
+#ifndef Config_h
+#define Config_h
+
+
+// 颜色 每次自己进行修改
+#define Main_Color [UIColor colorWithRed:(255)/255.0 green:(160)/255.0 blue:(235)/255.0 alpha:1.0]
+#define Main2_Color [UIColor colorWithRed:(135)/255.0 green:(202)/255.0 blue:(231)/255.0 alpha:1.0]
+#define RGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define RGBColorAlpha(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+// 16进制色传入
+#define UIColorFromHex(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+//随机色生成
+#define kRandomColor    KRGBColor(arc4random_uniform(256)/255.0,arc4random_uniform(256)/255.0,arc4random_uniform(256)/255.0)
+
+//默认图片名称
+#define Deflaut_Image_Name @"img_default"
+//默认图片
+#define Default_Image [UIImage imageNamed:Deflaut_Image_Name]
+//获取图片资源
+#define GetImage(imageName) [UIImage imageNamed:[NSString stringWithFormat:@"%@",imageName]]
+//获取路径对应UIImage对象
+#define ImageWithFile(_pointer) [UIImage imageWithContentsOfFile:([[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%@@%dx", _pointer, (int)[UIScreen mainScreen].nativeScale] ofType:@"png"])]
+
+// 通知
+#define XPNotificationCenter [NSNotificationCenter defaultCenter]
+// 偏好设置扩展
+#define GVUserDefault [GVUserDefaults standardUserDefaults]
+
+// 网络请求工具对象
+#define httpTool [HDNetworking sharedHDNetworking]
+
+// 项目网络图片地址String
+#define MergeUrl(url) ([NSString stringWithFormat:@"%@%@", projectBaseURL, url])
+
+//打印
+#ifdef DEBUG
+#define XPLog(...) printf("[%s] %s [第%d行]: %s\n", __TIME__ ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String])
+#else
+#define XPLog(...)
+#endif
+
+// 设置字体大小
+#define font(size) [UIFont systemFontOfSize:size]
+
+// 占位字符字体
+//#define SET_PLACE(text) [text  setValue:[UIFont boldSystemFontOfSize:(14)] forKeyPath:@"_placeholderLabel.font"];
+
+#endif /* Config_h */

@@ -1,0 +1,63 @@
+//
+//  Pch.pch
+//  ProjectFrameworkDemo
+//
+//  Created by 周磊 on 16/6/8.
+//  Copyright © 2016年 xiaopao. All rights reserved.
+//
+
+#ifndef Pch_pch
+#define Pch_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "AppDelegate.h"
+#import "AppDelegate+AppService.h"
+#import "Config.h"
+#import "HttpInterface.h"
+#import "CategoryHead.h"
+#import "ThirdLibsHeader.h"
+#import "UtilsMacros.h"
+#import "ThirdMacros.h"
+#import "EnumType.h"
+#import "CommonMacros.h"
+#import "Manager.h"
+
+
+// 根控制器
+#import "RootViewController.h"
+#import "RootNavigationController.h"
+#import "RootTabBarController.h"
+#import "QMUICommonViewController+AddNavBarItem.h"
+
+/******************* 主要模块控制器  *************/
+#import "FWLoginVC.h"
+#import "HomeVC.h"
+#import "UserCenterVC.h"
+
+/******************* 网络请求工具     *************/
+#import "HDNetworking.h"
+
+/******************* 第三方框架      **************/
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "Masonry.h"
+#import "MJRefresh.h"
+#import "SDCycleScrollView.h"
+#import <MLTransition.h>
+#import <YYKit.h>
+#import <IQKeyboardManager.h>
+#import <SVProgressHUD.h>
+#import <ReactiveObjC/ReactiveObjC.h>
+#import <CYLTabBarController.h>
+#import <Toast.h>
+#import <QMUIKit/QMUIKit.h>
+
+// 友盟
+#import <UMCommon/UMCommon.h>    // 公共组件是所有友盟产品的基础组件，必选
+#import <UMShare/UMShare.h>      // 分享组件
+#import <UShareUI/UShareUI.h>    // UI
+
+#endif /* Pch_pch */

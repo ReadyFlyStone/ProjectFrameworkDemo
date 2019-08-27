@@ -1,0 +1,60 @@
+//
+//  Pch.pch
+//  ProjectFrameworkDemo
+//
+//  Created by 周磊 on 16/6/8.
+//  Copyright © 2016年 xiaopao. All rights reserved.
+//
+
+#ifndef Pch_pch
+#define Pch_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "AppDelegate.h"
+#import "Config.h"
+#import "HttpInterface.h"
+#import "CategoryHead.h"
+#import "ThirdLibsHeader.h"
+#import "UtilsMacros.h"
+#import "ThirdMacros.h"
+
+// 根控制器
+#import "RootViewController.h"
+#import "RootNavigationController.h"
+#import "RootTabBarController.h"
+
+/******************* 主要模块控制器  *************/
+#import "XPLoginVC.h"
+#import "HomeVC.h"
+#import "UserCenterVC.h"
+
+/******************* 网络请求工具     *************/
+#import "HDNetworking.h"
+
+/******************* 工具类     *************/
+#import "GVUserDefaults+UserInfo.h"
+// 用户信息
+#import "AcountItem.h"
+#import "HWAccountTool.h"
+
+/******************* 第三方框架      **************/
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "Masonry.h"
+#import "MBProgressHUD.h"
+#import "SDCycleScrollView.h"
+#import <UMSocialCore/UMSocialCore.h>
+#import <UShareUI/UShareUI.h>
+#import <MLTransition.h>
+#import <YYKit.h>
+#import <IQKeyboardManager.h>
+#import <SVProgressHUD.h>
+#import <LCTabBarController.h>
+#import <ReactiveObjC/ReactiveObjC.h>
+#import "XLsn0wKit.h"
+
+
+#endif /* Pch_pch */

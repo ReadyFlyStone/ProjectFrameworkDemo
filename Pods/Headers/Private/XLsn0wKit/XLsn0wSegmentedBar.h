@@ -1,1 +1,0 @@
-../../../XLsn0wKit/XLsn0w/XLsn0wComponents/XLsn0wSegmentedBar/XLsn0wSegmentedBar.h

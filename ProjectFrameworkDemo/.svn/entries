@@ -1,80 +1,0 @@
-10
-
-dir
-690
-https://zhoulei@219.135.97.15:8443/svn/common_project/ios/ProjectFrameworkDemo/ProjectFrameworkDemo
-https://zhoulei@219.135.97.15:8443/svn/common_project
-
-
-
-2017-09-28T13:03:22.239425Z
-689
-zhoulei
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-91ea6dcc-e7fd-8542-85ed-714c5d6d4083
-
-Base.lproj
-dir
-
-Third Libs
-dir
-
-Info.plist
-file
-
-
-
-
-2017-09-28T12:48:47.000000Z
-4aa4cf3d4eaab0f42bedadba8263a5f3
-2017-09-28T12:57:05.982364Z
-686
-zhoulei
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6471
-
-AppDelegate
-dir
-
-Classes
-dir
-
-Supporting Files
-dir
-
-Assets.xcassets
-dir
-
