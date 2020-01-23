@@ -1394,7 +1394,7 @@
 				7148A0201D07CB6E0076A458 /* Sources */,
 				7148A0211D07CB6E0076A458 /* Frameworks */,
 				7148A0221D07CB6E0076A458 /* Resources */,
-				801B06926BB9E17871C01589 /* [CP] Copy Pods Resources */,
+				D4EFCC4C37ADE08E29131FF1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1447,9 +1447,9 @@
 		7148A01C1D07CB6E0076A458 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = FW;
+				CLASSPREFIX = FD;
 				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = FanWang;
+				ORGANIZATIONNAME = Freedom;
 				TargetAttributes = {
 					7148A0231D07CB6E0076A458 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -1470,6 +1470,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1517,7 +1518,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		801B06926BB9E17871C01589 /* [CP] Copy Pods Resources */ = {
+		D4EFCC4C37ADE08E29131FF1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1526,7 +1527,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-ProjectFrameworkDemo/Pods-ProjectFrameworkDemo-resources.sh",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
-				"${PODS_ROOT}/QMUIKit/QMUIKit/QMUIResources/QMUIResources.bundle",
+				"${PODS_ROOT}/QMUIKit/QMUIKit/QMUIResources/Images.xcassets",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
 			);
@@ -1534,7 +1535,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QMUIResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
 			);
@@ -1762,7 +1763,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1811,7 +1812,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1848,7 +1849,7 @@
 					"\"$(SRCROOT)/ProjectFrameworkDemo/Third Libs/AlipayWeChatPayManager/Alipay\"",
 				);
 				INFOPLIST_FILE = ProjectFrameworkDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1859,6 +1860,7 @@
 				New_Setting = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FanWang.ProjectFrameworkDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WARNING_CFLAGS = (
 					"-Wno-strict-prototypes",
 					"-Wno-deprecated-implementations",
@@ -1896,7 +1898,7 @@
 					"\"$(SRCROOT)/ProjectFrameworkDemo/Third Libs/AlipayWeChatPayManager/Alipay\"",
 				);
 				INFOPLIST_FILE = ProjectFrameworkDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1907,6 +1909,7 @@
 				New_Setting = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FanWang.ProjectFrameworkDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WARNING_CFLAGS = (
 					"-Wno-strict-prototypes",
 					"-Wno-deprecated-implementations",

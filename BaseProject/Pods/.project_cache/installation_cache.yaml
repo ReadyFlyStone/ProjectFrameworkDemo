@@ -1,0 +1,162 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  AFNetworking:
+    BUILD_SETTINGS_CHECKSUM:
+      AFNetworking: efb91c6220e10cb6ff46b112a351fe06
+    CHECKSUM: b6f891fdfaed196b46c7a83cf209e09697b94057
+    SPECS:
+      - AFNetworking (3.2.1)
+      - AFNetworking/NSURLSession (3.2.1)
+      - AFNetworking/Reachability (3.2.1)
+      - AFNetworking/Security (3.2.1)
+      - AFNetworking/Serialization (3.2.1)
+      - AFNetworking/UIKit (3.2.1)
+  CYLTabBarController:
+    BUILD_SETTINGS_CHECKSUM:
+      CYLTabBarController: 240988139298b441e6a86e1792717db5
+    CHECKSUM: cd14c6260a38337600737873a57b3114c7065a8e
+    SPECS:
+      - CYLTabBarController (1.28.3)
+      - CYLTabBarController/Core (1.28.3)
+  IQKeyboardManager:
+    BUILD_SETTINGS_CHECKSUM:
+      IQKeyboardManager: b004f137ab14e5a25b5dd08a928ac93d
+    CHECKSUM: 700e5155d6a292383b54e8678aec769e14fc78fc
+    SPECS:
+      - IQKeyboardManager (6.5.0)
+  Masonry:
+    BUILD_SETTINGS_CHECKSUM:
+      Masonry: 08b92f63b00a1015da07b49ceb1cd99a
+    CHECKSUM: 678fab65091a9290e40e2832a55e7ab731aad201
+    SPECS:
+      - Masonry (1.1.0)
+  MJRefresh:
+    BUILD_SETTINGS_CHECKSUM:
+      MJRefresh: 448295716eb0c20a5199fe326831f878
+    CHECKSUM: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+    SPECS:
+      - MJRefresh (3.2.0)
+  Pods-ProjectFrameworkDemo:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 58fbf15f183cd7a133b2a486dc538cc6
+      Release: 58fbf15f183cd7a133b2a486dc538cc6
+  QMUIKit:
+    BUILD_SETTINGS_CHECKSUM:
+      QMUIKit: ebdfc17346a8f8337fc626bafe9d9c60
+    CHECKSUM: 4914306e357359d79a118557cc34513dfb3b12ab
+    SPECS:
+      - QMUIKit (4.0.2)
+      - QMUIKit/QMUIComponents (4.0.2)
+      - QMUIKit/QMUIComponents/NavigationBarTransition (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIAlertController (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIAnimation (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIAssetLibrary (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIBadge (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIButton (4.0.2)
+      - QMUIKit/QMUIComponents/QMUICAAnimationExtension (4.0.2)
+      - QMUIKit/QMUIComponents/QMUICellHeightCache (4.0.2)
+      - QMUIKit/QMUIComponents/QMUICellHeightKeyCache (4.0.2)
+      - QMUIKit/QMUIComponents/QMUICellSizeKeyCache (4.0.2)
+      - QMUIKit/QMUIComponents/QMUICollectionViewPagingLayout (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIConsole (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIDialogViewController (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIEmotionInputManager (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIEmotionView (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIEmptyView (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIFillButton (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIFloatLayoutView (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIGhostButton (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIGridView (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIImagePickerLibrary (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIImagePreviewView (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIKeyboardManager (4.0.2)
+      - QMUIKit/QMUIComponents/QMUILabel (4.0.2)
+      - QMUIKit/QMUIComponents/QMUILinkButton (4.0.2)
+      - QMUIKit/QMUIComponents/QMUILogManagerViewController (4.0.2)
+      - QMUIKit/QMUIComponents/QMUILogWithConfigurationSupported (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIMarqueeLabel (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIModalPresentationViewController (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIMoreOperationController (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIMultipleDelegates (4.0.2)
+      - QMUIKit/QMUIComponents/QMUINavigationButton (4.0.2)
+      - QMUIKit/QMUIComponents/QMUINavigationTitleView (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIOrderedDictionary (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIPieProgressView (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIPopupContainerView (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIPopupMenuView (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIScrollAnimator (4.0.2)
+      - QMUIKit/QMUIComponents/QMUISearchBar (4.0.2)
+      - QMUIKit/QMUIComponents/QMUISearchController (4.0.2)
+      - QMUIKit/QMUIComponents/QMUISegmentedControl (4.0.2)
+      - QMUIKit/QMUIComponents/QMUISlider (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIStaticTableView (4.0.2)
+      - QMUIKit/QMUIComponents/QMUITableView (4.0.2)
+      - QMUIKit/QMUIComponents/QMUITableViewCell (4.0.2)
+      - QMUIKit/QMUIComponents/QMUITableViewHeaderFooterView (4.0.2)
+      - QMUIKit/QMUIComponents/QMUITableViewProtocols (4.0.2)
+      - QMUIKit/QMUIComponents/QMUITestView (4.0.2)
+      - QMUIKit/QMUIComponents/QMUITextField (4.0.2)
+      - QMUIKit/QMUIComponents/QMUITextView (4.0.2)
+      - QMUIKit/QMUIComponents/QMUITheme (4.0.2)
+      - QMUIKit/QMUIComponents/QMUITips (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIToastView (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIToolbarButton (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIVisualEffectView (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIWindowSizeMonitor (4.0.2)
+      - QMUIKit/QMUIComponents/QMUIZoomImageView (4.0.2)
+      - QMUIKit/QMUICore (4.0.2)
+      - QMUIKit/QMUILog (4.0.2)
+      - QMUIKit/QMUIMainFrame (4.0.2)
+      - QMUIKit/QMUIResources (4.0.2)
+      - QMUIKit/QMUIWeakObjectContainer (4.0.2)
+  ReactiveObjC:
+    BUILD_SETTINGS_CHECKSUM:
+      ReactiveObjC: 7143b045974b7286c6ac4c6d03ea0afe
+    CHECKSUM: 011caa393aa0383245f2dcf9bf02e86b80b36040
+    SPECS:
+      - ReactiveObjC (3.1.1)
+  SDCycleScrollView:
+    BUILD_SETTINGS_CHECKSUM:
+      SDCycleScrollView: 8fbca2a24e32eed60a9df4e123f10d8d
+    CHECKSUM: b3c9a5ed840c771c4938978174c7c9d9feefeb96
+    SPECS:
+      - SDCycleScrollView (1.80)
+  SDWebImage:
+    BUILD_SETTINGS_CHECKSUM:
+      SDWebImage: 95424e9ff6a07051a5b7f92e42fe5e2f
+    CHECKSUM: fb387001955223213dde14bc08c8b73f371f8d8f
+    SPECS:
+      - SDWebImage (5.1.0)
+      - SDWebImage/Core (5.1.0)
+  SVProgressHUD:
+    BUILD_SETTINGS_CHECKSUM:
+      SVProgressHUD: 8c2185183b6ab49e62fd298de60b4e4e
+    CHECKSUM: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+    SPECS:
+      - SVProgressHUD (2.2.5)
+  UMCCommon:
+    BUILD_SETTINGS_CHECKSUM:
+      UMCCommon: 7a1f847aefeadaaeb54a19880b185946
+    CHECKSUM: 971f324a5a99c9d662ae040a815e7e3d7ef8b2a8
+    SPECS:
+      - UMCCommon (2.1.1)
+  UMCShare:
+    BUILD_SETTINGS_CHECKSUM:
+      UMCShare: ed04e5a2dca585413a6f3c636904fc26
+    CHECKSUM: e0cef55c0fd6051254c8cda1d0630eb578b27bad
+    SPECS:
+      - UMCShare/Core (6.9.6)
+      - UMCShare/Social/ReducedQQ (6.9.6)
+      - UMCShare/Social/ReducedSina (6.9.6)
+      - UMCShare/Social/ReducedWeChat (6.9.6)
+      - UMCShare/UI (6.9.6)
+  YYKit:
+    BUILD_SETTINGS_CHECKSUM:
+      YYKit: 31671a48c7bb19d13c8c647916d2e5f6
+    CHECKSUM: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+    SPECS:
+      - YYKit (1.0.9)
+      - YYKit/no-arc (1.0.9)
+OBJECT_VERSION: 46

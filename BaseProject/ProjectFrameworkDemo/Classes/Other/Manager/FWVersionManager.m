@@ -42,7 +42,7 @@
         NSString *currentVersion = [infoDictionary objectForKey:@"CFBundleShortVersionString"];
         if (!data) {
             XPLog(@"您没有连接网络");
-            [currentController.view makeToast:@"您没有连接网络 !"];
+            [QMUITips showInfo:@"您没有连接网络 !"];
             return ;
         }
         
@@ -58,7 +58,7 @@
         NSArray *resultArray = jsonDictionary[@"result"];
         if (resultArray.count < 1) {
             XPLog(@"此APPID为未上架的APP或者查询不到");
-            [currentController.view makeToast:@"此APPID为未上架的APP或者查询不到"];
+            [QMUITips showInfo:@"此APPID为未上架的APP或者查询不到"];
             return;
         }
         
@@ -102,7 +102,7 @@
             
         } else {
             XPLog(@"您当前版本已经是最新!");
-            [currentController.view makeToast:@"您当前版本已经是最新!"];
+            [QMUITips showInfo:@"您当前版本已经是最新!"];
         }
     }];
     

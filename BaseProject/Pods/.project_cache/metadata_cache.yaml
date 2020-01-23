@@ -1,0 +1,60 @@
+AFNetworking:
+  LABEL: AFNetworking
+  PROJECT_PATH: "/Users/jessica-j/Desktop/GitHub/ProjectFrameworkDemo/BaseProject/Pods/AFNetworking.xcodeproj"
+  UUID: B561AD1B13C486A61C9BF66B4E6D8F89
+CYLTabBarController:
+  LABEL: CYLTabBarController
+  PROJECT_PATH: "/Users/jessica-j/Desktop/GitHub/ProjectFrameworkDemo/BaseProject/Pods/CYLTabBarController.xcodeproj"
+  UUID: E5BE7965DA13687EBA7B20A4A9D99F08
+IQKeyboardManager:
+  LABEL: IQKeyboardManager
+  PROJECT_PATH: "/Users/jessica-j/Desktop/GitHub/ProjectFrameworkDemo/BaseProject/Pods/IQKeyboardManager.xcodeproj"
+  UUID: 6D332532246486EC88B3F9B6BD9DC92A
+Masonry:
+  LABEL: Masonry
+  PROJECT_PATH: "/Users/jessica-j/Desktop/GitHub/ProjectFrameworkDemo/BaseProject/Pods/Masonry.xcodeproj"
+  UUID: C0965FF775F51458AD4A8E41ABAB7D1E
+MJRefresh:
+  LABEL: MJRefresh
+  PROJECT_PATH: "/Users/jessica-j/Desktop/GitHub/ProjectFrameworkDemo/BaseProject/Pods/MJRefresh.xcodeproj"
+  UUID: E94AEF767442EDAAAAB2129CDFA2C2ED
+Pods-ProjectFrameworkDemo:
+  LABEL: Pods-ProjectFrameworkDemo
+  PROJECT_PATH: "/Users/jessica-j/Desktop/GitHub/ProjectFrameworkDemo/BaseProject/Pods/Pods.xcodeproj"
+  UUID: FEEFBD1738673ADF1F86AB022A6C5845
+QMUIKit:
+  LABEL: QMUIKit
+  PROJECT_PATH: "/Users/jessica-j/Desktop/GitHub/ProjectFrameworkDemo/BaseProject/Pods/QMUIKit.xcodeproj"
+  UUID: CB3BDBE3FF3AAF85599007DFE93A63E2
+ReactiveObjC:
+  LABEL: ReactiveObjC
+  PROJECT_PATH: "/Users/jessica-j/Desktop/GitHub/ProjectFrameworkDemo/BaseProject/Pods/ReactiveObjC.xcodeproj"
+  UUID: 58630A911E82956281CDF1C822E7FC41
+SDCycleScrollView:
+  LABEL: SDCycleScrollView
+  PROJECT_PATH: "/Users/jessica-j/Desktop/GitHub/ProjectFrameworkDemo/BaseProject/Pods/SDCycleScrollView.xcodeproj"
+  UUID: 844208DB60DC7784BD9ED4E0A9DE354B
+SDWebImage:
+  LABEL: SDWebImage
+  PROJECT_PATH: "/Users/jessica-j/Desktop/GitHub/ProjectFrameworkDemo/BaseProject/Pods/SDWebImage.xcodeproj"
+  UUID: 4ECF4E662EEBE4FA58102FF984D920CC
+SVProgressHUD:
+  LABEL: SVProgressHUD
+  PROJECT_PATH: "/Users/jessica-j/Desktop/GitHub/ProjectFrameworkDemo/BaseProject/Pods/SVProgressHUD.xcodeproj"
+  UUID: 8A902363E0683102423DADEA0C0D4541
+Toast:
+  LABEL: Toast
+  PROJECT_PATH: "/Users/jessica-j/Desktop/GitHub/ProjectFrameworkDemo/BaseProject/Pods/Toast.xcodeproj"
+  UUID: 33C24699A9A19E75BC1DA302FBB8EA84
+UMCCommon:
+  LABEL: UMCCommon
+  PROJECT_PATH: "/Users/jessica-j/Desktop/GitHub/ProjectFrameworkDemo/BaseProject/Pods/UMCCommon.xcodeproj"
+  UUID: CDB0574DA87E5D448B9702D49C8383B5
+UMCShare:
+  LABEL: UMCShare
+  PROJECT_PATH: "/Users/jessica-j/Desktop/GitHub/ProjectFrameworkDemo/BaseProject/Pods/UMCShare.xcodeproj"
+  UUID: C77EDC64C01E4F892B29C984FCE92691
+YYKit:
+  LABEL: YYKit
+  PROJECT_PATH: "/Users/jessica-j/Desktop/GitHub/ProjectFrameworkDemo/BaseProject/Pods/YYKit.xcodeproj"
+  UUID: 72514A559E512D8B1A63797534CB1E4B

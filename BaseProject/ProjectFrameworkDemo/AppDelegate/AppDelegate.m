@@ -41,9 +41,6 @@
     
     [WXApi registerApp:kAppKey_Wechat];
     [self UShareConfig];
-  
-    //c侧滑返回
-    [MLTransition validatePanBackWithMLTransitionGestureRecognizerType:(MLTransitionGestureRecognizerTypeScreenEdgePan)];
     
     return YES;
 }

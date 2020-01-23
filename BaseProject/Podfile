@@ -2,12 +2,16 @@
 platform :ios, '10.0'
 inhibit_all_warnings!
 
+install! 'cocoapods',
+          :generate_multiple_pod_projects => true,
+          :incremental_installation => true
+
 target 'ProjectFrameworkDemo' do
     # Uncomment this line if you're using Swift or would like to use dynamic frameworks
     # use_frameworks!
 
     # Pods for ProjectFrameworkDemo
-    pod 'CYLTabBarController', '~> 1.17.4'
+    pod 'CYLTabBarController', '~> 1.28.0'
     pod 'SDCycleScrollView','~> 1.66'
     pod 'IQKeyboardManager'
     pod 'SVProgressHUD'
@@ -15,11 +19,9 @@ target 'ProjectFrameworkDemo' do
     pod 'AFNetworking'
     pod 'MJRefresh'
     pod 'Masonry'
-    pod 'Toast'
+#    pod 'Toast'
     pod 'YYKit'
     pod 'QMUIKit'
-
-    pod 'MLTransition', '~> 2.1.2'#滑动返回
 
     pod 'UMCCommon'
     #pod 'UMCSecurityPlugins'
@@ -31,7 +33,6 @@ target 'ProjectFrameworkDemo' do
     pod 'UMCShare/Social/ReducedQQ'
     # 集成新浪微博(精简版1M)
     pod 'UMCShare/Social/ReducedSina'
-
 
 end
 

@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C77EDC64C01E4F892B29C984FCE92691 /* UMCShare */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F88A5C70400C0EE1A7BB184AD38E6B17 /* Build configuration list for PBXAggregateTarget "UMCShare" */;
+			buildPhases = (
+			);
+			dependencies = (
+				2C8E394E8FE0C319603640B897D8E378 /* PBXTargetDependency */,
+			);
+			name = UMCShare;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXContainerItemProxy section */
+		A2CB5AAAB749B242EC52B5EB2F9DB978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7DD305E353AFB58657356EC37D23886 /* UMCCommon.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CDB0574DA87E5D448B9702D49C8383B5;
+			remoteInfo = UMCCommon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F2116926B9095DBECA374ECC8306D97 /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMSocialSDKResources.bundle; path = UMShare/UMSocialUI/UMSocialSDKResources.bundle; sourceTree = "<group>"; };
+		4B81075ED0784E128F4B3E9C619E24BD /* libSocialQQ.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialQQ.a; path = UMShare/SocialLibraries/QQ/libSocialQQ.a; sourceTree = "<group>"; };
+		4DEA98D9602DE424A22547064B96C008 /* libSocialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialWeChat.a; path = UMShare/SocialLibraries/WeChat/libSocialWeChat.a; sourceTree = "<group>"; };
+		9950F6E558A2024201FCC92A7566778C /* UMSocialSinaHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialSinaHandler.h; path = UMShare/SocialLibraries/Sina/UMSocialSinaHandler.h; sourceTree = "<group>"; };
+		9BC5A69876D76BC1DEE5254ECBBEC344 /* UMSocialQQHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialQQHandler.h; path = UMShare/SocialLibraries/QQ/UMSocialQQHandler.h; sourceTree = "<group>"; };
+		A72D78294A7C7EA72462E1BFA36FAE53 /* UMShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMShare.framework; path = UMShare/UMShare.framework; sourceTree = "<group>"; };
+		C7DD305E353AFB58657356EC37D23886 /* UMCCommon */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMCCommon; path = UMCCommon.xcodeproj; sourceTree = "<group>"; };
+		EBE5942767557393F8CFB828E7AB71A3 /* UMCShare.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCShare.xcconfig; sourceTree = "<group>"; };
+		EE20DD640F169C75FC2BAED18F6D36B9 /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UShareUI.framework; path = UMShare/UMSocialUI/UShareUI.framework; sourceTree = "<group>"; };
+		FAB89360F19EA1B09379B08BC8500892 /* libSocialSina.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialSina.a; path = UMShare/SocialLibraries/Sina/libSocialSina.a; sourceTree = "<group>"; };
+		FDCC741E6A2FDCCD071C8E158415E006 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialWechatHandler.h; path = UMShare/SocialLibraries/WeChat/UMSocialWechatHandler.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		06765FACDEE3605A49091B2F15324A90 /* ReducedWeChat */ = {
+			isa = PBXGroup;
+			children = (
+				FDCC741E6A2FDCCD071C8E158415E006 /* UMSocialWechatHandler.h */,
+				61460FDDC3D61E5CE22BE238AE7355B7 /* Frameworks */,
+			);
+			name = ReducedWeChat;
+			sourceTree = "<group>";
+		};
+		217C165CC84EB34275DA21FBB5A9E5BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE20DD640F169C75FC2BAED18F6D36B9 /* UShareUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2782EB892D13CAE0E13ECCC9ABA0FFF4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AC50BF24DDF74141DA357F37B7B16901 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		3BD50FBBBA838123EA9AB51909E2D27E = {
+			isa = PBXGroup;
+			children = (
+				A04155CB70EC5BB17B2C47B437C0395D /* Dependencies */,
+				F17E0F7C16D0889170F9F8F25CBD20E1 /* Frameworks */,
+				831252F855BA52AA524115DC9AF21DA5 /* Products */,
+				750A7BD7B3F5A84784A80E89F0FE16A6 /* UMCShare */,
+			);
+			sourceTree = "<group>";
+		};
+		61460FDDC3D61E5CE22BE238AE7355B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DEA98D9602DE424A22547064B96C008 /* libSocialWeChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		750A7BD7B3F5A84784A80E89F0FE16A6 /* UMCShare */ = {
+			isa = PBXGroup;
+			children = (
+				2782EB892D13CAE0E13ECCC9ABA0FFF4 /* Core */,
+				FC99C34F006C7EA65F71C21B1425DDDE /* Social */,
+				C90EC7A4AA3CD2BDEDC4AD180B16ED4B /* Support Files */,
+				E7A4B93B108E49B744BA0A94EDFEC92E /* UI */,
+			);
+			name = UMCShare;
+			path = UMCShare;
+			sourceTree = "<group>";
+		};
+		8260F20256A63622FD775E56FCCC1AEB /* ReducedSina */ = {
+			isa = PBXGroup;
+			children = (
+				9950F6E558A2024201FCC92A7566778C /* UMSocialSinaHandler.h */,
+				9C8E7196F3C15F4EA1765E07BE9AE6CE /* Frameworks */,
+			);
+			name = ReducedSina;
+			sourceTree = "<group>";
+		};
+		831252F855BA52AA524115DC9AF21DA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98698A21A3BD22583AAE112F829999A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B81075ED0784E128F4B3E9C619E24BD /* libSocialQQ.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C8E7196F3C15F4EA1765E07BE9AE6CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAB89360F19EA1B09379B08BC8500892 /* libSocialSina.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A04155CB70EC5BB17B2C47B437C0395D /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD305E353AFB58657356EC37D23886 /* UMCCommon */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		A9E345EBAFB2DCAADB0BF0DD341CF211 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2F2116926B9095DBECA374ECC8306D97 /* UMSocialSDKResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AC50BF24DDF74141DA357F37B7B16901 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A72D78294A7C7EA72462E1BFA36FAE53 /* UMShare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C90EC7A4AA3CD2BDEDC4AD180B16ED4B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBE5942767557393F8CFB828E7AB71A3 /* UMCShare.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UMCShare";
+			sourceTree = "<group>";
+		};
+		D65488DD6F4695A50B51F4F081B5B801 /* ReducedQQ */ = {
+			isa = PBXGroup;
+			children = (
+				9BC5A69876D76BC1DEE5254ECBBEC344 /* UMSocialQQHandler.h */,
+				98698A21A3BD22583AAE112F829999A6 /* Frameworks */,
+			);
+			name = ReducedQQ;
+			sourceTree = "<group>";
+		};
+		E7A4B93B108E49B744BA0A94EDFEC92E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				217C165CC84EB34275DA21FBB5A9E5BD /* Frameworks */,
+				A9E345EBAFB2DCAADB0BF0DD341CF211 /* Resources */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		F17E0F7C16D0889170F9F8F25CBD20E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC99C34F006C7EA65F71C21B1425DDDE /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				D65488DD6F4695A50B51F4F081B5B801 /* ReducedQQ */,
+				8260F20256A63622FD775E56FCCC1AEB /* ReducedSina */,
+				06765FACDEE3605A49091B2F15324A90 /* ReducedWeChat */,
+			);
+			name = Social;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		1ACE01EE6A2036AD113C6947E17BCFE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = F83B44F7D2058CE709E17D0B5169ACA3 /* Build configuration list for PBXProject "UMCShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3BD50FBBBA838123EA9AB51909E2D27E;
+			productRefGroup = 831252F855BA52AA524115DC9AF21DA5 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = C7DD305E353AFB58657356EC37D23886 /* UMCCommon */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C77EDC64C01E4F892B29C984FCE92691 /* UMCShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXTargetDependency section */
+		2C8E394E8FE0C319603640B897D8E378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCCommon;
+			targetProxy = A2CB5AAAB749B242EC52B5EB2F9DB978 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33D8A9B747B14AB3CDBB69D2D2E9B902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBE5942767557393F8CFB828E7AB71A3 /* UMCShare.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		454F0E03C60238DC3491237685748D76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		674197B0148CC18A835107F7669DE0C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBE5942767557393F8CFB828E7AB71A3 /* UMCShare.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CDE048A76872EA986E0599C0ECAB866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F83B44F7D2058CE709E17D0B5169ACA3 /* Build configuration list for PBXProject "UMCShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDE048A76872EA986E0599C0ECAB866 /* Debug */,
+				454F0E03C60238DC3491237685748D76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F88A5C70400C0EE1A7BB184AD38E6B17 /* Build configuration list for PBXAggregateTarget "UMCShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D8A9B747B14AB3CDBB69D2D2E9B902 /* Debug */,
+				674197B0148CC18A835107F7669DE0C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ACE01EE6A2036AD113C6947E17BCFE3 /* Project object */;
+}
